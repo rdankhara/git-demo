@@ -1,0 +1,1 @@
+To initialise a git project right click on the directory and choose git bash, then verify the path is correct and apply command `git init`
