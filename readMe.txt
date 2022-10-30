@@ -5,8 +5,10 @@ If you are doing this first time then you will need to tell git who you are by b
 git config --global user.name 'rajnikant'
 git config --global user.email 'rajnikant.dankhara@gmail.com'
 
-`git branch` command will list all the branches in your current project
-
+# remote commands
 `git remote -v` command will show you your link to git remote (e.g. github.com)
+
+# branching commands
+`git branch` command will list all the branches in your current project
 
 `git branch -M main` to change git name of git branch
