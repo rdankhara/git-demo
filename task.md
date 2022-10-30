@@ -13,4 +13,3 @@
 # commit changes and push (`git push origin task1` command to push task1 branch)
 
 # from the link you see after push create pull request in assignee assign to yourself, reviewers add (later)
-
