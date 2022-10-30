@@ -16,3 +16,18 @@ git config --global user.email 'rajnikant.dankhara@gmail.com'
 `git checkout name-of-branch` will switch to branch name-of-branch
 
 `git branch -M main` to change git name of git branch
+
+# delete branch commands
+
+`git push --delete origin name-of-branch`
+
+`git branch -D name-of-branch` will delete branch from your local machine
+
+# synchronizing (update your local branch from remote)
+
+`git fetch` (first to get changes from remote)
+
+`git checkout main` if not on main or master already
+
+`git pull origin main`
+
