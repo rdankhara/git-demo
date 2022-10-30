@@ -11,4 +11,8 @@ git config --global user.email 'rajnikant.dankhara@gmail.com'
 # branching commands
 `git branch` command will list all the branches in your current project
 
+`git checkout -b name-of-branch` will create new branch with name name-of-branch
+
+`git checkout name-of-branch` will switch to branch name-of-branch
+
 `git branch -M main` to change git name of git branch
