@@ -1,8 +1,3 @@
-> To initialise a git project right click on the directory and choose git bash, then verify the path is correct and apply command 
-````
-git init
-````
-
 If you are doing this first time then you will need to tell git who you are by below configuration command 
 ````
 git config --global user.name 'your name'
@@ -22,6 +17,16 @@ git config --global -l
 > or to view local configuration use below command 
 ````
 git config --local -l
+````
+
+> To clone existing repository to you local machine use comand 
+````
+git clone url-of-your-git-repo [optional directory name]
+````
+
+> To initialise a git project right click on the directory and choose git bash, then verify the path is correct and apply command
+````
+git init
 ````
 
 ### SSH Key configuration
