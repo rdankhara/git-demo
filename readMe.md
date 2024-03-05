@@ -31,9 +31,7 @@ git init
 
 ### SSH Key configuration
 > To generate ssh key 
-1. open git bash from windows start menu, mac users can just use their terminal
-2. open this link [generate ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-3. enter below command on your git bash then press enter, **DO NOT enter any password**, just hit enter (don't enter any password), enter again in confirm password
+1. Follow Steps 1 to 3 on [**Generating a new SSH key**](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) , **DO NOT ENTER ANY PASSWORD ON STEP 3, just press enter two times
 4. **DO NOT DO HARDWARE SECURITY KEY**
 ````
 ssh-keygen -t ed25519 -C "your_email@example.com"
