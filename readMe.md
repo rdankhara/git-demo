@@ -33,7 +33,8 @@ git init
 > To generate ssh key 
 1. open git bash from windows start menu, mac users can just use their terminal
 2. open this link [generate ssh key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-3. enter below command on your git bash then press enter, don't enter any password, just hit enter (don't enter any password), enter again in confirm password
+3. enter below command on your git bash then press enter, **DO NOT enter any password**, just hit enter (don't enter any password), enter again in confirm password
+4. **DO NOT DO HARDWARE SECURITY KEY**
 ````
 ssh-keygen -t ed25519 -C "your_email@example.com"
 ````
